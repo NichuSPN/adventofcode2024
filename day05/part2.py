@@ -48,7 +48,6 @@ def fixPageNumbers(update, retries=0):
 sumOfMiddlePages = 0
 for update in updates:
     success, indexes = getWrongPageNumbers(update)
-    # print(success, indexes)
     if not success:
         # if rule passed get middle page number
         fixed, middlePage = fixPageNumbers(swapPages(update, indexes))
