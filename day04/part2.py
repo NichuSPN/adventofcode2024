@@ -27,3 +27,8 @@ for i in range(1, m-1):
             XMasMatches+=XMasMatched(i, j)
             
 print(f"ta-da... {XMasMatches} number X MAS matched!")
+
+'''
+Diag 1 \
+Diag 2 /
+'''
