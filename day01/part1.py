@@ -1,5 +1,5 @@
-# INPUT_FILE_NAME = 'example.in'
-INPUT_FILE_NAME = 'actual.in'
+# INPUT_FILE_NAME = 'example.txt'
+INPUT_FILE_NAME = 'actual.txt'
 
 input = []
 with open(f'input/{INPUT_FILE_NAME}', 'r') as file:
